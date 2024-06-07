@@ -14,3 +14,15 @@
       } else {
         $Matches[1]
       }
+- Enable: true
+  Identifier: auls_memref
+  Developer: ePi
+  Type: GitHub
+  Owner: ePi5131
+  Repository: auls_memref_patch
+  Asset: ^auls_memref.zip$
+  Version:
+    from: tag_name
+    regex:
+      find: ^\d.(\d.)-(\d.)-(\d)_.*$
+      replace: $1.$2.$3
