@@ -3,7 +3,8 @@
 
 Identifier: auls-memref
 DisplayName: Aulsメモリ参照プラグイン
-Version: 24.03.30
+Version: 2024-03-30
+ReleaseDate: 2024-03-30
 Section: Plugin/Other
 Depends:
 - aviutl (>= 1.00)
@@ -19,6 +20,7 @@ Description: |-
 Website:
 - https://scrapbox.io/ePi5131/Aulsメモリ参照プラグイン
 - https://auls.client.jp/
+- https://github.com/ePi5131/auls_memref_patch
 Files:
 - SourceUrl: https://github.com/ePi5131/auls_memref_patch/releases/download/2024-03-30_01-11/auls_memref.zip
   Sha256: 70475dd5be7178550f1d38ff8fd6e81facd8a8ad5d43a0b4bf1c14d341353b70
