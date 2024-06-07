@@ -6,6 +6,8 @@ DisplayName: 最大化時メインウィンドウのみ表示プラグイン
 Version: "0.4"
 ReleaseDate: 2021-12-16
 Section: Plugin/Other
+Conflicts:
+- Ultimate
 InstalledSize: 11
 Developer:
 - nazoSAUNA

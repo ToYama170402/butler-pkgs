@@ -6,6 +6,7 @@ DisplayName: アルティメットプラグイン
 Version: r9
 ReleaseDate: 2023-12-04
 Section: Plugin/Other
+Conflicts: MaxWnd
 InstalledSize: 1701
 Developer:
 - hebiiro
