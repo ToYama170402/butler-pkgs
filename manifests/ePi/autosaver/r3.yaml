@@ -1,0 +1,22 @@
+# Created using CreateManifest.ps1 v0.2.0
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Per-Terra/butler-pkgs/main/schemas/JSON/manifest/0.2.0.json
+
+Identifier: autosaver
+DisplayName: autosaver
+Version: r3
+ReleaseDate: 2023-03-21
+Section: Plugin/Other
+InstalledSize: 261
+Developer:
+- ePi
+Description: |-
+  <enter description here>
+  <enter description here>
+Website:
+- https://github.com/ePi5131/autosaver
+Files:
+- SourceUrl: https://github.com/ePi5131/autosaver/releases/download/r3/autosaver.auf
+  Sha256: 360edfd310fcfa8feed37b1940f635a434bdc6c8228f6e26610c9fa85b9d0fdd
+  Install:
+    TargetPath: plugins/autosaver.auf
+ManifestVersion: 0.2.0

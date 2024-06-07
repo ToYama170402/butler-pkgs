@@ -26,3 +26,15 @@
     regex:
       find: ^\d.(\d.)-(\d.)-(\d)_.*$
       replace: $1.$2.$3
+- Enable: true
+  Identifier: autosaver
+  Developer: ePi
+  Type: GitHub
+  Owner: ePi5131
+  Repository: autosaver
+  Asset: ^autosaver.zip$
+  Version:
+    from: tag_name
+    regex:
+      find: ^r(.*)$
+      replace: $1

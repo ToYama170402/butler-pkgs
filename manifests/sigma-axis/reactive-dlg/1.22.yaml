@@ -1,0 +1,34 @@
+# Created using CreateManifest.ps1 v0.2.0
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Per-Terra/butler-pkgs/main/schemas/JSON/manifest/0.2.0.json
+
+Identifier: reactive-dlg
+DisplayName: aviutl_reactive_dlg
+Version: "1.22"
+ReleaseDate: 2024-04-01
+Section: plugin/other
+InstalledSize: 73
+Developer:
+- sigma-axis
+Description: |-
+  <enter description here>
+  <enter description here>
+Website:
+- https://github.com/sigma-axis/aviutl_reactive_dlg
+Files:
+- SourceUrl: https://github.com/sigma-axis/aviutl_reactive_dlg/releases/download/v1.22/aviutl_reactive_dlg-v1.22.zip
+  Sha256: cd658476fb96e4d4cfd9ec7dd11afda0f50bef1a73ca76578222d2f1d99783c4
+  Files:
+  - Path: LICENSE
+    Sha256: 4268433862d83249d3a1ce152dcf0a0eafaf23d5a57baca379ab675a3894056e
+  - Path: reactive_dlg.auf
+    Sha256: 671b5f917becc9825cb2f6ce863eb1264924dfb7ee5773f7b3206c69109d472f
+    Install:
+      TargetPath: plugins/reactive_dlg.auf
+  - Path: reactive_dlg.ini
+    Sha256: 063c000e5cee9db1cc4534db0973555e9f22765b900c8601c6d3538cdfbe12d3
+    Install:
+      TargetPath: plugins/reactive_dlg.ini
+      ConfFile: true
+  - Path: README.md
+    Sha256: ac3e92bedaffc77ae5afbd9fc7d316364de5646861be74090b2378dc820b76b9
+ManifestVersion: 0.2.0
