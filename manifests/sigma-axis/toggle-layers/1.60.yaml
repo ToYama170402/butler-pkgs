@@ -1,0 +1,34 @@
+# Created using CreateManifest.ps1 v0.2.0
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Per-Terra/butler-pkgs/main/schemas/JSON/manifest/0.2.0.json
+
+Identifier: toggle-layers
+DisplayName: toggle-layers
+Version: "1.60"
+ReleaseDate: 2024-06-07
+Section: Plugin/other
+InstalledSize: 35
+Developer:
+- sigma-axis
+Description: |-
+  <enter description here>
+  <enter description here>
+Website:
+- https://github.com/sigma-axis/aviutl_toggle_layers
+Files:
+- SourceUrl: https://github.com/sigma-axis/aviutl_toggle_layers/releases/download/v1.60/aviutl_toggle_layers-v1.60.zip
+  Sha256: 74e47b38727770ec720e17c0dbbfdb4bc70051c98fd92f040988fe21ea3d9064
+  Files:
+  - Path: LICENSE
+    Sha256: 4268433862d83249d3a1ce152dcf0a0eafaf23d5a57baca379ab675a3894056e
+  - Path: README.md
+    Sha256: fc4646894f3ae4e07b186ef32529a551bd8aa2e315173d9de778d084654b1c71
+  - Path: toggle_layers.auf
+    Sha256: cc4c46c70189c3e43db2f041a3dbc46022b42b04fe4afa0957fc1bcf36786eb1
+    Install:
+      TargetPath: plugins/toggle_layers.auf
+  - Path: toggle_layers.ini
+    Sha256: 21c69565afa98feb7948303aab9e37d6626ad61b54ae2d474182d077cbc5cbc1
+    Install:
+      TargetPath: plugins/toggle_layers.ini
+      ConfFile: true
+ManifestVersion: 0.2.0
