@@ -4,41 +4,41 @@
 Identifier: L-SMASH-Works
 DisplayName: L-SMASH Works
 Version: r1151
-ReleaseDate: 2025-02-23
+ReleaseDate: 2025-03-02
 Section: Plugin/Input
 Architecture: x64
-InstalledSize: 42460
+InstalledSize: 42463
 Developer:
 - Mr-Ojii
 Description: AviUtl用入力プラグインその他
 Website:
 - https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds
 Files:
-- SourceUrl: https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2025-02-23-01-13-04/L-SMASH-Works_r1151_Mr-Ojii_Mr-Ojii.zip
-  Sha256: 59c7eda7044afbd9cf9f014e5b40a9951f916fdd88f004125569419969c4b923
+- SourceUrl: https://github.com/Mr-Ojii/L-SMASH-Works-Auto-Builds/releases/download/build-2025-03-02-01-13-46/L-SMASH-Works_r1151_Mr-Ojii_Mr-Ojii.zip
+  Sha256: fc6ee4ab6af805000310197d36c500f3b68eda41b32a11ded585a1fa320a4162
   Files:
   - Path: About-this-build.txt
-    Sha256: 0874e4b75f08615ab22504267ae178fdcc3547679924ca0fbb0b0fd81a0b7115
+    Sha256: 359451c5cdeba0ae2e2c7b1d1de813591c25f62c423040434d8c86bed62acb6c
   - Path: LICENSE
     Sha256: 5ec6a5ca2e945b59be4c71cb2955575ae615532a8af201efd79b79d467421e5f
   - Path: lwcolor.auc
-    Sha256: 73da0d048e5a6962b0c71549ab0866eeffde7104f2bf96ba568af82cc28ae395
+    Sha256: 01b5e8898638dc2e534b4f374a85f99df2f7e002ef76ef3682ad8432c10e47e8
     Install:
       TargetPath: plugins/lwcolor.auc
   - Path: lwdumper.auf
-    Sha256: 8f59e8d5f84aa466a9010fde60d5a7b3fb2e4579d8c95d5c567ca89725658591
+    Sha256: b3a922d7c12bc277371c8f4b1a581e33fb7098a5cded065c30ae7586fd49475d
     Install:
       TargetPath: plugins/lwdumper.auf
   - Path: lwinput.aui
-    Sha256: 741d6559af78eafb93447633687dca64cf2931f3f80e351b0633a76ba4a56059
+    Sha256: 20f41c85ee902b70a49c9563405d8cdb61cf8be069444f009b78adb638d2ebb5
     Install:
       TargetPath: plugins/lwinput.aui
   - Path: lwinput64.aui
-    Sha256: e6091d458292d3a459321d402208634bd5eed4c22adca2c52dc0cbd1e1925244
+    Sha256: 1df61992c3b85296b145beeff1bd4d6b253e16164a87b810c7dc71e93a1ef6c7
     Install:
       TargetPath: plugins/lwinput64.aui
   - Path: lwmuxer.auf
-    Sha256: a6c06cfaa59b17ce2601b955a7ce3610f87c289422524db62697374f49278b62
+    Sha256: 52e80cabfa0f39ad5a58b16517b7e47278f50b64cff1fef0785a3edd8ab8e0f6
     Install:
       TargetPath: plugins/lwmuxer.auf
   - Path: README
